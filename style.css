@@ -1,0 +1,159 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f8; /* Cor de fundo suave */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333; /* Cor de texto principal */
+}
+ 
+
+.container {
+    background-color: #ffffff;
+    padding: 25px 40px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+h3 {
+    color: #34495e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ 
+
+form div, form fieldset {
+    margin-bottom: 18px;
+}
+ 
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+ 
+legend {
+    font-weight: bold;
+    color: #34495e;
+    padding: 0 10px;
+}
+ 
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #555;
+}
+ 
+input[type="text"],
+input[type="number"] {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+ 
+input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+ 
+button[type="submit"] {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+ 
+button[type="submit"]:hover {
+    background-color: #27ae60;
+}
+ 
+.receipt h1 {
+    color: #16a085;
+}
+ 
+#nota-fiscal-details {
+    border: 1px dashed #bdc3c7;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+}
+ 
+#nota-fiscal-details ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+#nota-fiscal-details li {
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ecf0f1;
+}
+#nota-fiscal-details li:last-child {
+    border-bottom: none;
+}
+ 
+.total, .troco {
+    font-weight: bold;
+    font-size: 1.15em;
+    margin-top: 15px;
+}
+ 
+.total {
+    color: #2980b9;
+}
+ 
+.troco {
+    color: #27ae60;
+}
+ 
+a.button-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+ 
+a.button-link:hover {
+    background-color: #2980b9;
+}
+ 
+
+.error h1 {
+    color: #e74c3c;
+}
+.error p {
+    color: #c0392b;
+    font-weight: bold;
+}

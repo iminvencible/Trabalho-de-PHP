@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Caixa Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pedido Novo</h1>
+    <form action="processar_pedido.php" method="post">
+ 
+        <div>
+            <label for="cliente_nome">Nome do Cliente:</label>
+            <input type="text" id="cliente_nome" name="cliente_nome" required>
+        </div>
+ 
+        <fieldset>
+            <legend>Produtos</legend>
+            <div>
+                <label for="produto1_nome">Primeiro Produto:</label>
+                <input type="text" id="produto1_nome" name="produto1_nome" required>
+            </div>
+            <div>
+                <label for="produto1_valor">Valor do Primeiro Produto:</label>
+                <input type="number" id="produto1_valor" name="produto1_valor" step="0.01" min="0" required>
+            </div>
+            <hr>
+            <div>
+                <label for="produto2_nome">Segundo Produto:</label>
+                <input type="text" id="produto2_nome" name="produto2_nome" required>
+            </div>
+            <div>
+                <label for="produto2_valor">Valor do Segundo Produto:</label>
+                <input type="number" id="produto2_valor" name="produto2_valor" step="0.01" min="0" required>
+            </div>
+        </fieldset>
+        <div>
+            <label for="valor_pago">Valor pago pelo Cliente: </label>
+            <input type="number" name="valor_pago" id="valor_pago" step="0.01" min="0" required>
+        </div>
+        <button type="submit">Gerar Nota Fisical</button>
+    </form>
+    </div>
+</body>
+</html>
